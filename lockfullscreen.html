@@ -1,0 +1,21 @@
+ <!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Lock fullscreen</title>
+	</head>
+	<body id="hello" style="background-color: #000;">
+		<a href="#" onclick="lock = !lock;">Toggle lock</a>
+	</body>
+	<script>
+		var lock = true;
+		document.addEventListener('click', function(){ fs(); });
+		document.addEventListener('keyup', function(){ fs(); });
+
+		function fs()
+		{
+			if (lock)
+				document.getElementById("hello").webkitRequestFullScreen();
+		}
+	</script>
+</html> 

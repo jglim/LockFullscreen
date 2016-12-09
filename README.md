@@ -6,8 +6,10 @@ Entering (and keeping the page in) fullscreen while showing a fake *minimize/max
 
 ## Demo
 
-Open the page and click anywhere. (Chrome only as I wrote that with the `-webkit` prefix).
+Open [the page](https://jglim.github.io/LockFullscreen/lockfullscreen.html) and click anywhere. (Chrome only as I wrote that with the `-webkit` prefix).
+
 Try to get out of fullscreen. 
+
 To exit, click the "Toggle Lock" link once, then press ESC to exit.
 
 
